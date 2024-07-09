@@ -12,7 +12,7 @@ app.use(cors()) ;
 // connection mongoose 
 
 // mongo db atlast er crudproject 
-const URI= "mongodb+srv://smd994753:<password>@cluster0.yp1gfdk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; 
+const URI= "mongodb+srv://smd994753:<password>@cluster0.yp1gfdk.mongodb.net/FullstackCRUD?retryWrites=true&w=majority&appName=Cluster0"; 
 
 const  OPTION={user:'smd994753',pass:'01933114716',autoIndex:true}
 mongoose.connect(URI,OPTION) 
